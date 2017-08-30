@@ -13,6 +13,18 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+            @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+            @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      
+            body { font-family: 'Droid Serif'; }
+            h1, h2, h3 {
+              font-family: 'Yanone Kaffeesatz';
+              font-weight: normal;
+            }
+            .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+          </style>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,8 +32,30 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+        <textarea id="source">
+            
+            class: center, middle
+            
+            # Title
+            
+            ---
+            
+            # Agenda
+            
+            1. Introduction
+            2. Deep-dive
+            3. ...
+            
+            ---
+            
+            # Introduction
+            
+                </textarea>
+                <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+                </script>
+                <script>
+                  var slideshow = remark.create();
+                </script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
